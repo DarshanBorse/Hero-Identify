@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   env: {
     MONGO_URL:
-      "mongodb+srv://<Username>:<Password>@cluster0.noxf2.mongodb.net/?retryWrites=true&w=majority",
+      // "Enter your mongodb url",
   },
 };
 
