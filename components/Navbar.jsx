@@ -5,7 +5,9 @@ function Navbar() {
     <div className="container">
       <nav className="navbar navbar-expand-lg bg-light shadow">
         <div className="container-fluid">
-          <a className="navbar-brand">Super Hero Identity</a>
+          <Link href={"/"}>
+            <a className="navbar-brand">Super Hero Identity</a>
+          </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
             <Link href={"/add"}>
